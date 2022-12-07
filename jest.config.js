@@ -1,5 +1,6 @@
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'node',
+  preset: 'jest-expo',
+  testEnvironment: 'jsdom',
+  preset: 'jest-expo',
 };
