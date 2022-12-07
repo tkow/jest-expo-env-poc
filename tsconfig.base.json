@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "target": "ES2021",
+    "lib": ["dom", "ES2021"],
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "module": "esnext"
+  },
+  "typeRoots": ["./node_modules/@types", "./@types"],
+  "exclude": ["node_modules"]
+}
