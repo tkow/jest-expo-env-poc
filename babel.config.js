@@ -1,15 +1,9 @@
 module.exports = function(api) {
   api.cache(true);
   return {
-    "plugins":[
-      [
-        "@babel/plugin-proposal-decorators",
-        {
-          "legacy": true,
-          // decoratorsBeforeExport: true
-        }
-      ]
+    "plugins": [
+      ["babel-plugin-transform-typescript-metadata"],
     ],
-    presets: ["module:metro-react-native-babel-preset"],
+    presets: ['babel-preset-expo'],
   };
 };
